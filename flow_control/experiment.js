@@ -1,0 +1,1 @@
+5 === 2 ? 'You have the right answer' : 'You have the wrong answer'
