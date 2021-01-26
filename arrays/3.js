@@ -5,10 +5,10 @@ let myArray = [
 ];
 
 for (let i = 0; i < myArray.length; i += 1) {
-  for (let j = 0; j < myArray[i].length; j += 1) {
-    let value = myArray[i][j];
-    if (value % 2 === 0) {
-      console.log(value);
+  let value = myArray[i];
+  for (let j = 0; j < value.length; j += 1) {
+  if (value[j] % 2 === 0) {
+  console.log(value[j])
     }
   }
 }
