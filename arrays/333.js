@@ -1,6 +1,4 @@
-let bob = { name: 'Bob', age: 22 };
-let studentBob = { year: 'Senior' };
-
-console.log(Object.assign(bob, studentBob))
-console.log(bob)
-console.log(studentBob)
+let names = ['bob', 'joe', 'steve', undefined, 'frank'];
+names.forEach(name => {
+  console.log(`${name}'s name has ${name.length} letters in it.`);
+});
